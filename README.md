@@ -1,4 +1,4 @@
-# PressF5
+# PressF5 :computer:
 Press F5의 저장소 입니다!!  
 동아리 활동 시간에 진행했었던 활동과 코드를 기록합니다!!  
 (설명은 각 폴더에 YYYYMMDD.md 로 저장됩니다.)
