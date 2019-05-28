@@ -13,24 +13,27 @@ import requests
 from bs4 import BeautifulSoup
 </code>
 사용할 라이브러리를 불러옵니다.
-<pre>
+```
 def get_html(url):
    _html = ""
    resp = requests.get(url)
    if resp.status_code == 200:
        _html = resp.text
    return _html
-</pre>  
+```
 해당 url의 html을 가져오는 함수를 선업합니다.  
-<pre>  
+```
 html = get_html("https://genie.co.kr/chart/top200")
-</pre>   
+
+```
+
 웹 사이트의 html을 가져와 변수 html에 저장합니다.(필자는 지니 뮤직차트로 진행 했습니다.)  
-<pre>
+```
 soup = BeautifulSoup(html, 'html.parser')
-</pre>
+```
 soup 이라는 BeautifulSoup 인스턴스를 선언 합니다.
 ## css 선택자로 원하는 정보 찾기
-<pre>
+```
 print(soup.find_all("a",{"class":"title ellipsis"})[1])
-</pre>
+
+```
