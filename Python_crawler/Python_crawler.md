@@ -8,10 +8,10 @@ crawl이란 영어단어는 원래 "기어가다"라는 뜻이 있는데,
   - **BeautifulSoup** ([공식문서](https://beautiful-soup-4.readthedocs.io/en/latest/)) 역시 파이썬 라이브러리로 html를 파싱하게 해줍니다.  
 - **웹에 대한 약간의 이해** ([생활코딩 WEBn](https://opentutorials.org/course/3083)) 웹, 주로 html과, css를 안다면 좀 더 똑똑한 크롤러를 만들 수 있습니다.  
 ## 시작
-<pre>
+```
 import requests
 from bs4 import BeautifulSoup
-</code>
+```
 사용할 라이브러리를 불러옵니다.
 ```
 def get_html(url):
