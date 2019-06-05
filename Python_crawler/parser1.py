@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import re
 def get_html(url):
    _html = ""
    resp = requests.get(url)
