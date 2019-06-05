@@ -21,7 +21,7 @@ def get_html(url):
        _html = resp.text
    return _html
 ```
-해당 url의 html을 가져오는 함수를 선업합니다.  
+해당 url의 html을 가져오는 함수를 선언합니다.  
 ```
 html = get_html("https://genie.co.kr/chart/top200")
 
