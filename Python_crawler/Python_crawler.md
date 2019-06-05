@@ -58,4 +58,5 @@ soup.find_all("a",{"class":"title ellipsis"})
 ```
 이렇게 말입니다.(물론 출력을 위해서는 print를 써줘야 겠죠?)  
 그럼 기초적인 파이썬(반복문,조건문등)을 통해서 정보를 자신의 입맛에 맞게 가공하시면 됩니다.  
-사실 '정규표현식'을 이용하면 더 효율적으로 크롤링을 할 수있지만 그건 나중에 다루겠습니다. 
+사실 '정규표현식'을 이용하면 더 효율적으로 크롤링을 할 수있지만 그건 나중에 다루겠습니다.
+**지금까지의 코드는 [parser1.py](https://github.com/jihongeek/PressF5/blob/master/Python_crawler/parser1.py) 입니다.** 
