@@ -34,11 +34,22 @@ soup = BeautifulSoup(html, 'html.parser')
 soup 이라는 BeautifulSoup 인스턴스를 선언 합니다.
 ## 태그 ,속성으로 원하는 정보 찾기  
 먼저 웹사이트로 들어간 다음  
-![img1](./example_img/img1.png)  
+
+![img1](./example_img/img1.PNG)  
+  
+    
+    
 자기가 원하는 정보(필자는 노래 제목으로 했습니다.)에 우클릭을 한다음에 검사를 클릭하면,  
-![img2](./example_img/img2.png)
+
+![img2](./example_img/img2.PNG)  
+  
+    
+    
 이런식으로 옆에 창에 html 소스가 보입니다.  
-![img3](./example_img/img3.png)
+
+![img3](./example_img/img3.PNG)  
+  
+  
 그럼 자기자신이 선택한 부분이 어떤 html 태그인지와 클래스 값은 무엇인지 알 수 있습니다.  
 
 ```
@@ -58,5 +69,9 @@ soup.find_all("a",{"class":"title ellipsis"})
 ```
 이렇게 말입니다.(물론 출력을 위해서는 print를 써줘야 겠죠?)  
 그럼 기초적인 파이썬(반복문,조건문등)을 통해서 정보를 자신의 입맛에 맞게 가공하시면 됩니다.  
+<<<<<<< HEAD
 사실 '정규표현식'을 이용하면 더 효율적으로 크롤링을 할 수있지만 그건 나중에 다루겠습니다.
 **지금까지의 코드는 [parser1.py](https://github.com/jihongeek/PressF5/blob/master/Python_crawler/parser1.py) 입니다.** 
+=======
+사실 **정규표현식** 을 이용하면 더 효율적으로 크롤링을 할 수있지만 그건 나중에 다루겠습니다. 
+>>>>>>> 68f65da1db1c8d4cac42017a7164ff90429183b5
