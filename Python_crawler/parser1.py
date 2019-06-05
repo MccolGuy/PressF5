@@ -9,5 +9,4 @@ def get_html(url):
    return _html
 html = get_html("https://genie.co.kr/chart/top200")
 soup = BeautifulSoup(html, 'html.parser')
-<<<<<<< HEAD
 print(soup.find_all("a", {"class": "title ellipsis"}))
