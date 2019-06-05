@@ -34,16 +34,19 @@ soup = BeautifulSoup(html, 'html.parser')
 soup 이라는 BeautifulSoup 인스턴스를 선언 합니다.
 ## 태그 ,속성으로 원하는 정보 찾기  
 먼저 웹사이트로 들어간 다음  
+
 ![img1](./example_img/img1.PNG)  
   
     
     
 자기가 원하는 정보(필자는 노래 제목으로 했습니다.)에 우클릭을 한다음에 검사를 클릭하면,  
+
 ![img2](./example_img/img2.PNG)  
   
     
     
 이런식으로 옆에 창에 html 소스가 보입니다.  
+
 ![img3](./example_img/img3.PNG)  
   
   
