@@ -6,5 +6,5 @@ Press F5의 저장소 입니다:fire::fire:
 [Python 웹크롤러](https://github.com/jihongeek/PressF5/blob/master/Python_crawler/Python_crawler.md)
 ##  한 것
 20190501: 파이썬 기초 복습  
-20190506: Pycharm 과 크롤링 모듈 셋팅
-20190608: 크롤링 
+20190506: Pycharm 과 크롤링 모듈 셋팅  
+20190608: 크롤링
